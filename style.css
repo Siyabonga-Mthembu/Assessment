@@ -1,0 +1,149 @@
+* {
+  margin: 0%;
+  padding: 0;
+  background-color: #cecef4;
+  color: black;
+  font-size: 1.1rem;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.main {
+  display: grid;
+  height: 100%;
+  width: 100%;
+  margin-top: 0;
+}
+
+/*heading*/
+
+.heading {
+  background-color: #cecef4;
+  display: flex;
+  width: 100%;
+  height: 10vh;
+  font-size: 2rem;
+}
+
+.logo {
+  height: 5vh;
+  width: 10%;
+  padding: 2.2em;
+  text-align: center;
+}
+
+h1 {
+  background-color: white;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 1000;
+  width: 65%;
+  padding: 2.2em;
+  text-align: center;
+}
+
+.right-image {
+  background-color: white;
+  text-align: center;
+  width: 2%;
+  padding: 2.2em;
+}
+
+/*body*/
+
+.body-area {
+  background-color: white;
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  height: 76vh;
+  margin-top: 2rem;
+}
+
+.left {
+  background-color: black;
+  color: blue;
+  width: 20%;
+  padding: 1rem;
+  text-align: center;
+}
+
+.nav-content {
+  display: grid;
+  grid-template-columns: repeat(2rem);
+  margin-top: 2rem;
+  font-family: Franklin Gothic Medium;
+  font-size: medium;
+  font-weight: 100;
+}
+
+.journey,
+.curiocity,
+.friendship,
+.love,
+.growth,
+.ambitions,
+.persistance {
+  background-color: white;
+  border: 0.1em;
+  border-color: black;
+  border-style: solid;
+  margin: 0;
+  padding: 1rem;
+}
+
+.journey,
+.curiocity,
+.friendship,
+.love,
+.growth,
+.ambitions,
+.persistance :hover {
+}
+
+.right {
+  background-color: white;
+  display: flex;
+  width: 100%;
+  padding: 1rem;
+  text-align: center;
+}
+
+.middle {
+  background-color: white;
+  width: 65%;
+}
+
+.introduction {
+  background-color: white;
+  width: auto;
+}
+
+.tittle,
+.paragraph {
+  background-color: white;
+  padding: auto;
+  text-align: center;
+}
+
+.paragraph {
+  text-align: centerS;
+}
+
+/*footer*/
+
+.footer {
+  background-color: white;
+  display: flex;
+  gap: 1rem;
+  height: 5%;
+  text-align: center;
+  padding: 2rem;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+}
+.facebook,
+.location,
+.twitter,
+.linkin,
+.copyrigh {
+  background-color: white;
+}
