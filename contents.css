@@ -1,0 +1,168 @@
+22* {
+  margin: 0%;
+  padding: 0;
+  background-color: #cecef4;
+  color: black;
+
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.main {
+  display: grid;
+  height: 98vh;
+  width: auto;
+  margin-top: 1rem;
+}
+
+/*heading*/
+
+.head {
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 10vh;
+}
+
+.logo {
+  background-color: black;
+  height: 7vh;
+  width: 5%;
+  margin: 1rem;
+  padding: 0rem;
+}
+
+.main-tittle {
+  background-color: white;
+  margin-left: 5rem;
+  width: 70%;
+  text-align: center;
+  padding-top: 2rem;
+}
+
+#main-tittle {
+  background-color: white;
+  font-size: 4rem;
+}
+
+.right-image {
+  background-color: black;
+  color: red;
+  width: 15%;
+  margin-left: 0rem;
+}
+
+/*body*/
+
+.body-area {
+  background-color: white;
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  height: 70vh;
+  margin-top: 2rem;
+}
+
+.left {
+  background-color: #cecef4;
+  color: blue;
+  width: 20%;
+  font-size: 2rem;
+  padding: 1rem;
+  padding-right: 0;
+  padding-left: 0;
+  text-align: center;
+}
+
+.nav-content {
+  display: grid;
+  grid-template-columns: repeat(2rem);
+  margin-top: 2rem;
+  font-family: Franklin Gothic Medium;
+  font-size: medium;
+  font-weight: 100;
+}
+
+.journey,
+.curiocity,
+.friendship,
+.love,
+.growth,
+.ambitions,
+.persistance {
+  background-color: white;
+  border: 0.1em;
+  border-color: black;
+  border-style: solid;
+  margin: 0;
+  padding: 1rem;
+}
+
+.journey,
+.curiocity,
+.friendship,
+.love,
+.growth,
+.ambitions,
+.persistance,
+:hover::before {
+  text-transform: capitalize;
+  background-color: blue;
+}
+
+.right {
+  background-color: white;
+  display: flex;
+  width: 100%;
+  padding: 0;
+  text-align: center;
+}
+
+.middle {
+  background-color: black;
+  color: white;
+  width: 65%;
+  margin: 0;
+}
+
+.introduction {
+  background-color: white;
+  width: auto;
+}
+
+.tittle {
+  padding-top: 2rem;
+  margin-bottom: 2rem;
+  padding-left: 10rem;
+}
+
+.tittle,
+.paragraph {
+  background-color: white;
+  padding: auto;
+  text-align: center;
+}
+
+.paragraph {
+  text-align: centerS;
+}
+
+/*footer*/
+
+.footer {
+  background-color: white;
+  display: flex;
+  gap: 1rem;
+  height: 3vh;
+  text-align: center;
+  padding: 2rem;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+}
+.facebook,
+.location,
+.twitter,
+.linkin,
+.copyrigh {
+  background-color: white;
+}
