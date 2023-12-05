@@ -23,19 +23,20 @@
   height: 10vh;
 }
 
-.logo-img {
+.logo-box {
   height: 10vh;
-  width: 22vw;
+  width: 20vw;
   
   padding: 0rem;
 }
 
-img {
+.logo-img {
   /*make sure that the image is not too big*/
-  width: 10vw;
-  height: 10vh;
+  width: 100px;
+  height: 70px;
   align-items: center;
-  padding-left: 2rem;
+  padding-top: 1.5rem;
+  padding-left: 3rem;
 }
 
 .main-tittle {
@@ -134,19 +135,18 @@ img {
 }
 
 .tittle {
+  background-color: white;
+  text-align: center;
   padding-top: 2rem;
   margin-bottom: 2rem;
-  padding-left: 10rem;
+  padding-left: 5rem;
 }
 
-.tittle,
 .paragraph {
   background-color: white;
   padding: auto;
-  text-align: center;
-}
-
-
+  text-align:left;
+  text-size: 20px;
 }
 
 /*footer*/
@@ -156,16 +156,19 @@ img {
   display: flex;
   flex-direction: row;
   gap: 1rem;
-  height: 3vh;
-  text-align: center;
-  padding: 2rem;
+  height: 5vh;
+  padding-top: 1rem;
+  padding-left: 3rem;
   margin-bottom: 1rem;
   margin-top: 1rem;
 }
+
 .facebook,
 .location,
 .twitter,
 .linkin,
-.copyrigh {
-  background-color: white;
+.copyright {
+  background: white;
+  gap: 2rem;
+  
 }
