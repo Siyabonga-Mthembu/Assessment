@@ -1,0 +1,187 @@
+* {
+  margin: 0%;
+  padding: 0;
+  background-color: #cecef4;
+  color: black;
+
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.main {
+  display: grid;
+  height: 98vh;
+  width: 100%;
+  margin-top: 1rem;
+}
+
+/*heading*/
+
+.head {
+  background-color: white;
+  display: flex;
+  width: 100%;
+  height: 10vh;
+}
+
+.logo-box {
+  height: 10vh;
+  width: 20vw;
+
+  padding: 0rem;
+}
+
+.logo-img {
+  /*make sure that the image is not too big*/
+  width: 120px;
+  height: 70px;
+  align-items: center;
+  padding-top: 1.5rem;
+  padding-left: 3rem;
+}
+
+.main-tittle {
+  background-color: white;
+  width: 80%;
+}
+
+#main-tittle {
+  text-align: center;
+  background-color: white;
+  color: blue;
+  font-size: 40px;
+  padding-top: 25px;
+}
+
+.right-image {
+  background-color: black;
+  color: red;
+  width: 10%;
+  margin-left: 0rem;
+}
+
+.corner-img {
+  width: 100%;
+  height: 100%;
+}
+
+/*body*/
+
+.body-area {
+  background-color: #cecef4;
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  height: 75vh;
+  margin-top: 2rem;
+}
+
+.left {
+  background-color: #cecef4;
+  color: blue;
+  height: 70vh;
+  width: 20%;
+  font-size: 2rem;
+  padding: 1rem;
+  padding-right: 0;
+  padding-left: 0;
+  text-align: center;
+}
+
+.nav-content {
+  display: grid;
+  grid-template-columns: repeat(2rem);
+  margin-top: 2rem;
+  height: 20vh;
+  width: auto;
+  font-family: Franklin Gothic Medium;
+  font-size: medium;
+  font-weight: 100;
+}
+
+.journey,
+.curiocity,
+.friendship,
+.love,
+.growth,
+.ambitions,
+.persistance {
+  background-color: white;
+  border: 0.1em;
+  border-color: #cecef4;
+  border-style: solid;
+  margin: 0;
+  height: 3vh;
+  width: auto;
+  padding: 1rem;
+  text-align: center;
+  text-transform: capitalize;
+  text-decoration: none;
+  font-weight: 100;
+}
+
+/*this is the only content to be changed in this file from index.html file*/
+
+.right {
+  background-color: #cecef4;
+  display: flex;
+  flex-direction: raw;
+  width: 75%;
+  padding: 0;
+}
+
+.one,
+.two,
+.three {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 80vh;
+}
+
+.two,
+.three {
+  margin-left: 2rem;
+}
+
+.one-pic,
+.two-pic,
+.three-pic {
+  background-color: black;
+  height: 12vh;
+}
+
+.one-name,
+.two-name,
+.three-name {
+  background-color: red;
+  height: 5vh;
+}
+
+.one-text,
+.two-text,
+.three-text {
+  background-color: white;
+  height: 55vh;
+  padding: 1rem;
+}
+
+/*footer*/
+
+.footer {
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  gap: 3rem;
+  height: 7vh;
+  padding-left: 10rem;
+}
+
+.facebook,
+.email,
+.contact,
+.tiktok,
+.linkin,
+.instragram {
+  background-color: white;
+  gap: 2rem;
+}
