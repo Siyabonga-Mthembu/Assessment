@@ -149,12 +149,17 @@
   background-color: black;
   height: 12vh;
 }
+.pic-img {
+  width: 100%;
+  height: 100%;
+}
 
-.one-name,
-.two-name,
-.three-name {
-  background-color: red;
-  height: 5vh;
+.tittlename {
+  background-color: #cecef4;
+  height: 4vh;
+  text-align: center;
+  padding-top: 1rem;
+  font-size: 20px;
 }
 
 .one-text,
